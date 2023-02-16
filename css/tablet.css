@@ -8,20 +8,15 @@
 
 .hero-section {
     max-width: 768px;
-    min-height: 400px;
-    
+    min-height: 400px; 
 }
     
-
-
-
 /*Benefits-section*/
 
 .benefits-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
-    
+    gap: 30px; 
 }
 
 .benefits-list-item {
@@ -34,23 +29,19 @@
 
 .benefits-box {
     width: 354px;
-    height: 120px;
-    
+    height: 120px; 
 }
-
 
 /*our-team*/
 
 
     .container {
         width: 768px;
-
     }
 
 
     .crew {
         width: 354px;
-
     }
 
     
@@ -59,18 +50,56 @@
         width: 354px;
     }
 
-
-
-
 /*our-clients*/
 
 
     .clients-item {
         width: 226px;
-        height: 92px;
-       
-        
+        height: 92px;  
     }
+
+    
+
+
+
+    /*footer*/
+
+    .footer-box {
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 165px;
+    }
+
+
+    .footer-flex {
+        gap: 60px;
+
+        padding-left: 76px;
+        padding-right: 89px;
+    }
+
+
+    .footer-adress {
+        width: 232px;
+        height: 79px;
+    }
+
+    .web-logo,
+    .logo-footer:link {
+       margin-bottom: 20px;  
+    }
+
+
+    .address-list-footer {
+       width: 100%;
+       height: 100px;
+ 
+}
+
+.input-sign-in {
+    width: 450px;   
+}
+
 
    
 
