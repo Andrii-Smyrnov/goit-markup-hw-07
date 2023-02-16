@@ -279,24 +279,11 @@ img {
 /*main-content index.html*/
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*hero-section*/
 
 
 
 .hero-section {
-
-   
     max-width: 100%;
     min-height: 100%;
 
@@ -309,9 +296,6 @@ img {
      rgba(47, 48, 58, 0.4)),
     url("../images/Img-hero-background.jpg");
     
-
-    /*padding-top: 200px;
-    padding-bottom: 200px;*/
     padding-top: 118px;
     padding-bottom: 118px;
     
@@ -327,8 +311,6 @@ img {
 .headline {
     font-weight: 900;
     font-size: 26px;
-    /*font-size: 44px;*/
-    
     line-height: 1.4em;
     text-align: center;
     letter-spacing: 0.06em;
@@ -342,7 +324,6 @@ img {
 }
 
 .button-hero {
-    /*width: 216px;*/
     width: 200px;
     height: 50px;
     border-radius: 4px;
@@ -376,8 +357,6 @@ img {
 }
 
 
-
-
 /*benefits-section*/
 
 
@@ -400,9 +379,6 @@ img {
     clip-path: inset(50%);
     margin: -1px;
 }
-
-
-
 
 .benefits-list-item {
     width: 100%;
@@ -439,24 +415,15 @@ img {
    
     font-size: 14px;
     line-height: 1.7em;
-    letter-spacing: 0.03em;
-     
+    letter-spacing: 0.03em;    
 }
-
-
-
-
-
-
-
 
 /*what-we-do*/
 
-.what-we-do-section {
-    
+.what-we-do-section { 
     display: none;
-
 }
+
 
 
 /*our-team*/
@@ -607,9 +574,6 @@ img {
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
                 border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-    
-   
 }
 
 .logo-clients {
@@ -626,22 +590,6 @@ img {
     border-color: var(--background-color-hero-button-focus);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*main-content-portfolio.html*/
 
