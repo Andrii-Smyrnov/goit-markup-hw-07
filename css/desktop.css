@@ -1,0 +1,195 @@
+@media screen and (min-width:1200px) {
+
+    .container {
+        width: 1200px;
+        padding-top: 94px;
+        padding-bottom: 94px;
+        
+
+    }
+
+
+        /*hero-section*/
+
+.hero-section {
+    max-width: 1660px;
+    min-height: 600px;
+
+    background-size: 1660px;
+    padding-top: 200px;
+    padding-bottom: 200px
+    
+}
+
+.hero-block {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+
+.headline { 
+    font-size: 44px;
+ 
+}
+
+.button-hero {
+    width: 216px;
+}
+
+
+
+/*Benefits-section*/
+    
+    .benefits-container {
+        padding-bottom: 0px;
+    }
+
+
+    .benefits-list {
+        display: flex;
+        gap: 30px;
+    
+    }
+
+    .benefits-list-item {
+        width: 270px;
+        height: 248px;  
+    }
+
+
+    .benefits-box {
+        width: 270px;
+        height: 120px;
+    
+    }
+
+   .heading-benefits{
+       text-align: left;
+    }
+
+
+/*our-team*/    
+
+   
+
+    
+/*what-we-do-section*/
+  
+    .what-we-do-section {
+        display: contents;
+        background-color: var(--background-color-body);
+
+} 
+
+
+        .what-we-do-heading {
+
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        line-height: 1.2em;
+
+        color: var(--color-heading);
+
+        margin-bottom: 50px;
+
+}
+
+
+    .what-we-do-list {
+       display: flex;
+       justify-content: space-between;
+    
+}
+
+
+    .what-we-do-card {
+       position: relative;
+}
+
+    .what-we-do-description {
+       position: absolute;
+       bottom: 0;
+
+       background-color: var(--color-what-we-do-description);
+       color: var(--background-color-body);
+
+       font-weight: 700;
+       font-size: 14px;
+       line-height: 1.2em;
+       letter-spacing: 0.03em;
+       text-align: center;
+       text-transform: uppercase;
+    
+       padding-top: 27px;
+       padding-bottom: 27px;
+       width: 100%;
+    
+}
+
+
+
+
+
+/*our-team*/
+
+    .our-team-heading {
+        font-size: 36px;
+        margin-bottom: 50px;
+    
+    }
+
+
+    .crew {
+        width: 270px;
+        padding-bottom: 30px; 
+
+    }
+
+    .team-members {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .team-member-item {
+        width: 270px;
+    }
+
+
+    /*our-clients*/
+
+
+    .our-clients-heading {
+        font-size: 36px;
+        margin-bottom: 50px;
+        
+    }
+
+    .clients-item {
+        width: 170px;
+        height: 92px;
+       
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

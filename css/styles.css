@@ -58,20 +58,19 @@
 }
 
 .container {
-    width: 1200px;
+    width: 100%;
 
     margin: 0 auto;
 
     padding-left: 15px;
-    padding-right: 15px; 
+    padding-right: 15px;
+    padding-top: 60px;
+    padding-bottom: 60px; 
+    
     
 }
 
-.block {
-    padding-top: 94px;
-    padding-bottom: 94px;
 
-}
 
 .link,
 .list  { 
@@ -106,6 +105,7 @@ text-align: center;
 img {
     display: block;
     max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -278,10 +278,28 @@ img {
 
 /*main-content index.html*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*hero-section*/
+
+
+
 .hero-section {
 
-    max-width: 1600px;
-    min-height: 600px;
+   
+    max-width: 100%;
+    min-height: 100%;
+
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -292,15 +310,25 @@ img {
     url("../images/Img-hero-background.jpg");
     
 
-    padding-top: 200px;
-    padding-bottom: 200px;
+    /*padding-top: 200px;
+    padding-bottom: 200px;*/
+    padding-top: 118px;
+    padding-bottom: 118px;
+    
     margin: 0 auto;
 }
 
 
+
+
+
+
+
 .headline {
     font-weight: 900;
-    font-size: 44px;
+    font-size: 26px;
+    /*font-size: 44px;*/
+    
     line-height: 1.4em;
     text-align: center;
     letter-spacing: 0.06em;
@@ -314,7 +342,8 @@ img {
 }
 
 .button-hero {
-    width: 216px;
+    /*width: 216px;*/
+    width: 200px;
     height: 50px;
     border-radius: 4px;
     
@@ -346,10 +375,16 @@ img {
     background-color: var(--background-color-hero-button-focus);
 }
 
+
+
+
+/*benefits-section*/
+
+
 .benefits-section {
     background-color: var(--background-color-body);
 
-    padding-top: 94px;
+    
 }
 
 .visually-hidden,
@@ -367,14 +402,12 @@ img {
 }
 
 
-.benefits-list {
-    display: flex;
-    gap: 30px;
-    
-}
+
 
 .benefits-list-item {
-    width: 270px;
+    width: 100%;
+    height:100%;
+    margin-bottom: 30px;
     
 }
 
@@ -385,8 +418,8 @@ img {
 
     background-color: var(--background-color-benefits-card);
 
-    width: 270px;
-    height: 120px;
+    width: 100%;
+    height: 100%;
     margin-bottom: 30px;
     
 }
@@ -397,7 +430,7 @@ img {
     font-size: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-align: left;
+    text-align: center;
 
     margin-bottom: 10px;
 }
@@ -410,55 +443,24 @@ img {
      
 }
 
+
+
+
+
+
+
+
+/*what-we-do*/
+
 .what-we-do-section {
-    background-color: var(--background-color-body);
-
-}
-
-.what-we-do-heading {
     
-    font-weight: 700;
-    font-size: 36px;
-    letter-spacing: 0.03em;
-    line-height: 1.2em;
-
-    color: var(--color-heading);
-
-    margin-bottom: 50px;
+    display: none;
 
 }
 
 
-.what-we-do-list {
-    display: flex;
-    justify-content: space-between;
-    
-}
+/*our-team*/
 
-
-.what-we-do-card {
-    position: relative;
-}
-
-.what-we-do-description {
-    position: absolute;
-    bottom: 0;
-
-    background-color: var(--color-what-we-do-description);
-    color: var(--background-color-body);
-
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.2em;
-    letter-spacing: 0.03em;
-    text-align: center;
-    text-transform: uppercase;
-    
-    padding-top: 27px;
-    padding-bottom: 27px;
-    width: 100%;
-    
-}
 
 .our-team-section {
     background-color: var(--background-color-our-team-section);
@@ -468,25 +470,26 @@ img {
 .our-team-heading {
 
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     letter-spacing: 0.03em;
     line-height: 1.2em;
 
     color: var(--color-heading);
 
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
 }
 
 .team-members {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .crew {
     padding-top: 30px;
-    padding-bottom: 30px;   
-    width: 270px;
+    padding-bottom: 24px;   
+    width: 100%;
 
     background-color: var(--background-color-body);
 
@@ -524,7 +527,7 @@ img {
 .social-item {
     width: 44px;
     height: 44px;
-    border-radius: 22px;
+    border-radius: 50%;
 }
 
 .social-link,
@@ -565,24 +568,26 @@ img {
 
 .our-clients-heading {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 28px;
     letter-spacing: 0.03em;
     line-height: 1.2em;
     
     color: var(--color-heading);
-    
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .clients-list {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
+  
 }
 
 .clients-item {
-    width: 170px;
-    height: 92px;
-
+    width: calc(100%-30px)/2;
+    height: calc(100%-60px)/3;
+   
     border: 1px solid var(--color-items);
     border-radius: 4px;
     
@@ -608,6 +613,7 @@ img {
 }
 
 .logo-clients {
+    
     fill: currentColor;
 
 }
@@ -620,6 +626,21 @@ img {
     border-color: var(--background-color-hero-button-focus);
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*main-content-portfolio.html*/
