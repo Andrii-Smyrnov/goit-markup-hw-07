@@ -100,8 +100,36 @@
     width: 450px;   
 }
 
+/*modal-window*/
 
-   
+
+.modal-window {
+    
+    max-width: 450px;
+    max-height: 609px;
+    
+     
+}
+
+.modal-input,
+.modal-comment {
+    
+    width: 370px;
+    height: 40px
+    
+    
+}
+
+.modal-comment {
+    
+    height: 120px;
+    
+}
+
+.policy-description {
+    font-size: 12px;
+}
+
 
 
 

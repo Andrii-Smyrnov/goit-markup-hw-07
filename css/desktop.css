@@ -243,6 +243,35 @@
     
 }
 
+/*modal-window*/
+
+.modal-window {
+    
+    max-width: 528px;
+    max-height: 581px;
+    
+     
+}
+
+.modal-input,
+.modal-comment {
+    
+    width: 448px;
+    height: 40px
+    
+    
+}
+
+.modal-comment {
+    
+    height: 120px;
+    
+}
+
+.policy-description {
+    font-size: 14px;
+}
+
 
 
 
