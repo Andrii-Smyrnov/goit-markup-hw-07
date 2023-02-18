@@ -114,11 +114,7 @@ img {
     outline:none;
 }
 
-
-
-
 /*Header*/
-/*Logotype WebStudio*/
 
 .header {
     font-weight: 500;
@@ -128,12 +124,17 @@ img {
 
     background-color: var(--background-color-body);
    
-    padding-top: 24px;
-    padding-bottom: 25px;
+    
     border-bottom: 1px solid var(--color-header-border-bottom);
+    max-width: 100%;
 
 }
 
+.container-header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+}
 
 .header-flexbox,
 .navigation,
@@ -149,10 +150,12 @@ img {
 
 .navigation {
     align-items: center;
-    gap: 93px;
+    
 }
 
+
 .link-header-list {
+    
     gap: 50px;
 }
 
@@ -164,7 +167,7 @@ img {
 .logo-header,.logo-footer:link  {
     font-family: 'Raleway';
     font-weight: 700;
-    font-size: 26px;
+    font-size: 24px;
     letter-spacing: 0.03em;
     
 }
@@ -246,6 +249,8 @@ img {
     color: var(--main-text-color);
     text-decoration: none;
 
+    text-align: center;
+
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -301,12 +306,6 @@ img {
     
     margin: 0 auto;
 }
-
-
-
-
-
-
 
 .headline {
     font-weight: 900;
@@ -418,13 +417,61 @@ img {
     letter-spacing: 0.03em;    
 }
 
-/*what-we-do*/
 
-.what-we-do-section { 
-    display: none;
+
+/*what-we-do-section*/
+  
+.what-we-do-section {
+    display: contents;
+    background-color: var(--background-color-body);
+
+} 
+
+
+    .what-we-do-heading {
+
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    line-height: 1.2em;
+
+    color: var(--color-heading);
+
+    margin-bottom: 50px;
+
 }
 
 
+.what-we-do-list {
+   display: flex;
+   justify-content: space-between;
+
+}
+
+
+.what-we-do-card {
+   position: relative;
+}
+
+.what-we-do-description {
+   position: absolute;
+   bottom: 0;
+
+   background-color: var(--color-what-we-do-description);
+   color: var(--background-color-body);
+
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.2em;
+   letter-spacing: 0.03em;
+   text-align: center;
+   text-transform: uppercase;
+
+   padding-top: 27px;
+   padding-bottom: 27px;
+   width: 100%;
+
+}
 
 /*our-team*/
 
@@ -553,7 +600,7 @@ img {
 
 .clients-item {
     
-    width: calc(100%-30px)/2;
+    flex-basis: calc(100%-30px)/2;
     height: 92px;
    
     border: 1px solid var(--color-items);
@@ -1225,3 +1272,39 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
+@media screen and (min-width:320px) and (max-width:1199px) {
+
+    /*what-we-do*/
+
+.what-we-do-section { 
+    display: none;
+
+}
+
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+
+
+/*header*/
+
+.link-header-list
+ {
+    display: none;
+}
+
+.logo-header,.logo-footer:link  {
+    
+    font-size: 24px;
+  
+}
+
+.contacts-item {
+    display: none;
+}
+
+.homepage::after {
+    display: none;
+}
+    
+}

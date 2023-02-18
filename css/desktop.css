@@ -9,7 +9,59 @@
     }
 
 
-        /*hero-section*/
+/*header*/
+
+.container-header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+   
+
+}
+
+.logo-header,.logo-footer:link  {
+    font-size: 26px;
+  
+}
+
+.portfolio-header, 
+.contacts-header-menu,
+.homepage  {
+
+padding-top:  32px;
+padding-bottom: 28px;
+
+}
+
+
+
+.navigation {
+    gap: 92px;
+}
+
+
+.contacts-item {
+    
+    font-size: 14px;
+    gap: 30px ;
+    
+}
+
+.envelope {
+    width: 16px;
+    height: 12px;
+    
+}
+
+.smartphone {
+    width: 10px;
+    height: 16px;
+
+}
+
+
+
+
+/*hero-section*/
 
 .hero-section {
     max-width: 1660px;
@@ -67,70 +119,6 @@
    .heading-benefits{
        text-align: left;
     }
-
-
-/*our-team*/    
-
-   
-
-    
-/*what-we-do-section*/
-  
-    .what-we-do-section {
-        display: contents;
-        background-color: var(--background-color-body);
-
-} 
-
-
-        .what-we-do-heading {
-
-        font-weight: 700;
-        font-size: 36px;
-        letter-spacing: 0.03em;
-        line-height: 1.2em;
-
-        color: var(--color-heading);
-
-        margin-bottom: 50px;
-
-}
-
-
-    .what-we-do-list {
-       display: flex;
-       justify-content: space-between;
-    
-}
-
-
-    .what-we-do-card {
-       position: relative;
-}
-
-    .what-we-do-description {
-       position: absolute;
-       bottom: 0;
-
-       background-color: var(--color-what-we-do-description);
-       color: var(--background-color-body);
-
-       font-weight: 700;
-       font-size: 14px;
-       line-height: 1.2em;
-       letter-spacing: 0.03em;
-       text-align: center;
-       text-transform: uppercase;
-    
-       padding-top: 27px;
-       padding-bottom: 27px;
-       width: 100%;
-    
-}
-
-
-
-
 
 /*our-team*/
 
