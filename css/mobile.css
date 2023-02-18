@@ -31,26 +31,23 @@
 /*our-team*/
 
 
-    .crew {
-         width: 450px;
+.crew {
+    width: 450px;
 
-        }
+ }
 
 /*our-clients*/
 
 
-    .clients-item {
-        width: 210px;
-        height: 92px;   
-        }
-
-
+.clients-item {
+    
+    width: 210px;
+    height: 92px;
+}
 /*footer*/
-
 
 .input-sign-in {
     width: 450px;
-   
       
 }
 
@@ -83,44 +80,14 @@
 .policy-description {
     font-size: 12px;
 }
-
-
-
-
-
-
-    
-
-
-    
-
-
-
-
-        
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
+   
 } 
+
+@media screen and (max-width:479) {
+
+    .clients-item {
+        flex-basis: calc(100% /2);
+        flex-basis: calc(100%/3);
+
+    }
+}
