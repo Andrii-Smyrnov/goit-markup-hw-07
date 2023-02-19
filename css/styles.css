@@ -135,6 +135,8 @@ img {
 }
 
 .container-header {
+    position: relative;
+    
     padding-top: 16px;
     padding-bottom: 16px;
 
@@ -149,15 +151,12 @@ img {
 
 .header-flexbox {
    justify-content: space-between;
+   
     
 }
 
 .navigation {
-    
     align-items: center;
-    justify-content: space-between;
-    gap: 276px;
-  
 }
 
 
@@ -292,12 +291,22 @@ img {
 /*mobile-menu*/
 
 .menu-button {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+   
+
     display: inline-flex;
     margin: 0;
     padding: 0;
     background-color: inherit;
     border: none;
 
+
+    transform: translateY(-50%);
+    
+    
+    
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 7777;
 }
@@ -715,7 +724,8 @@ img {
 }
     
 .clients-item {  
-    width: calc((100%-2*30px)/2);
+    width: calc((100%-30px)/2);
+    height: 92px;
     margin: 15px;
 }
 
