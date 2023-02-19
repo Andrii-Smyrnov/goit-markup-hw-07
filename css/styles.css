@@ -326,6 +326,7 @@ img {
 .menu-container {
     display: none;
     position: absolute;
+    
     top: 0;
     left: 50%;
     width: 100%;
@@ -337,11 +338,20 @@ img {
     max-height: 796px;
     transform: translatex(-50%);
    
+   
 }
 
 .menu-container.is-open {
     display: block;
+     
 }
+
+
+
+
+
+
+
 
 /*main-content index.html*/
 
