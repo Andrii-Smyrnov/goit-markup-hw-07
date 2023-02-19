@@ -234,12 +234,26 @@ padding-bottom: 28px;
 /*modal-window*/
 
 .modal-window {
-    
+    position: absolute;
+    top:50%;
+    left: 50%;
+
     max-width: 528px;
     max-height: 581px;
+
+    transform: translate(-50%, -50%);
     
      
 }
+
+.modal-close-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+}
+
+
 
 .modal-input,
 .modal-comment {
