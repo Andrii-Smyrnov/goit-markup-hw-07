@@ -19,7 +19,7 @@
 
 .hero-section {
     max-width: 480px;
-    min-height: 400px;
+    max-height: 400px;
 }
     
 

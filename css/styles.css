@@ -1227,13 +1227,13 @@ img {
 
 .modal-close-button:hover,
 .modal-close-button:focus {
-    color: var(--background-color-hero-button);
+    fill: var(--background-color-hero-button);
     
     
 }
 
 .close-logo {
-    fill: currentColor;
+    fill: var(--color-header-menu);
 }
 
 .modal-heading {
