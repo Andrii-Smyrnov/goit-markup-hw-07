@@ -2,6 +2,12 @@
 
 
     /*header*/
+    
+
+.menu-button {
+    display: none;
+}
+
 .header {
     font-size: 14px;
 }

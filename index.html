@@ -30,16 +30,32 @@
             
             
             <nav class="navigation">
-            
-                
-            
+
                 <a href="./index.html" lang="en" class="logo-header link"><span class="web-logo">Web</span>Studio</a>
             
+                
+
+
                 <ul class="list link-header-list">
                     <li><a class="link homepage" href="./index.html">Студія</a></li>
                     <li><a class="link portfolio-header" href="./portfolio.html">Портфоліо</a></li>
                     <li><a class="link contacts-header-menu" href="#">Контакти</a></li>
                 </ul>
+
+                <button type="button" class="menu-button is-open"
+                aria-controls="menu-container"
+                aria-expanded="false"
+                data-menu-button>
+                    <svg width="40px" height="40px"
+                    aria-label="Перемикач мобільного меню"
+                    aria-controls>
+                        <use class="icon-menu" href="./images/sprite.svg#icon-menu"></use>
+                        <use class="icon-cross" href="./images/sprite.svg#icon-cross"></use>
+                    </svg>
+
+                </button>
+
+                <div class="menu-container is-open" id="menu-container" data-menu></div>
             </nav>
             
             
@@ -376,7 +392,7 @@
 
         <section class="clients-section">
 
-            <div class="container">
+            <div class="container clients-container">
 
                 <h2 class="our-clients-heading">Постійні клієнти</h2>
 
@@ -591,6 +607,7 @@
     <!--Scripts-->
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
 
 </body>
 

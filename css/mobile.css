@@ -7,6 +7,14 @@
     
         }
 
+
+
+    .menu-container {
+        margin: auto;
+        max-width: 480px;
+        max-height: 796px;
+    }
+
 /*hero-section*/
 
 .hero-section {
@@ -40,11 +48,12 @@
 
 
 .clients-item {
-    
-    width: 210px;
-    height: 92px;
+    max-width: 210px;
+    max-height: 92px;
+
 }
-/*footer*/
+
+/*footer**/
 
 .input-sign-in {
     width: 450px;
@@ -82,12 +91,3 @@
 }
    
 } 
-
-@media screen and (max-width:479) {
-
-    .clients-item {
-        flex-basis: calc(100% /2);
-        flex-basis: calc(100%/3);
-
-    }
-}
