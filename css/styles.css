@@ -153,8 +153,10 @@ img {
 }
 
 .navigation {
-    gap: 276px;
+    
     align-items: center;
+    justify-content: space-between;
+    gap: 276px;
   
 }
 
