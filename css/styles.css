@@ -135,7 +135,7 @@ img {
 }
 
 .container-header {
-    position: relative;
+   
     
     padding-top: 16px;
     padding-bottom: 16px;
@@ -210,12 +210,6 @@ img {
 
     
 }
-
-.teg {
-
-}
-
-
 
 .portfolio-header, 
 .contacts-header-menu,
@@ -297,9 +291,7 @@ img {
 /*mobile-menu*/
 
 .menu-button {
-    position: absolute;
-    top: 50%;
-    right: 15px;
+    
    
 
     display: inline-flex;
@@ -309,7 +301,7 @@ img {
     border: none;
 
 
-    transform: translateY(-50%);
+    
     
     
     
@@ -351,12 +343,10 @@ img {
     top: 0;
     left: 50%;
     width: 100%;
-    height: 796px;
-
+    
     background-color: var(--background-color-body);
     padding: 48px 40px;
     
-    max-height: 796px;
     transform: translatex(-50%);
    
    
@@ -471,6 +461,16 @@ img {
     letter-spacing: 0.02em;
 
 }
+
+
+
+
+
+
+
+
+
+
 
 /*main-content index.html*/
 

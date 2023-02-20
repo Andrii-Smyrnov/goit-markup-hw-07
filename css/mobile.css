@@ -7,11 +7,7 @@
     
         }
 
-    .menu-container {
-        max-width: 480px;
-        max-height: 796px;
-    }
-
+    
 
 
 
@@ -92,3 +88,10 @@
    
 } 
 
+@media screen and (max-width:767px) { 
+    .navigation {
+        gap: 276px;px;
+        
+    }
+    
+}
