@@ -90,7 +90,8 @@
 
 @media screen and (max-width:767px) { 
     .navigation {
-        gap: 276px;px;
+    justify-content: space-between;
+    width: 100%;
         
     }
     
