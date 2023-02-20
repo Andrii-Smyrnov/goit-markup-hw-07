@@ -363,6 +363,7 @@ img {
 
 
 
+
 /*mobile-menu-content*/
 
 
@@ -376,9 +377,14 @@ img {
 .homepage-mob:focus,
 .portfolio-header-mob:focus,
 .contacts-header-mob:focus {
-    color: var(--color-header-menu-hover-focus);
+    color: var(--background-color-hero-button);
 
     
+}
+
+.homepage-mob:visited {
+    color: var(--background-color-hero-button);
+
 }
 
 .portfolio-header-mob, 
@@ -459,12 +465,35 @@ img {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.02em;
+    margin-bottom: 64px;
 
 }
 
+.social-list-mob {
+    display: flex;
+    justify-content: center;
 
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.2em;
 
+     letter-spacing: 0.02em;
 
+     color: var(--background-color-hero-button);
+     
+
+}
+
+.social-item-mob {
+    border-right: 1px solid #21212133;
+    padding-right: 10px;
+    margin-right: 10px;
+    
+}
+
+.social-item-mob:last-child {
+    border: none;
+}
 
 
 
