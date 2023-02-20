@@ -1,20 +1,18 @@
 @media screen and (min-width:768px) {
 
-
-    /*header*/
-    
-
 .menu-button {
     display: none;
 }
-
-
+    
+    
 .menu-container {
     display: none;
     visibility: hidden;
     pointer-events: none;
 }
 
+    /*header*/
+ 
 .header {
     font-size: 14px;
 }

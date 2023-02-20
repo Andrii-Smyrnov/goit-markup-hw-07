@@ -66,8 +66,7 @@
     padding-right: 15px;
     padding-top: 60px;
     padding-bottom: 60px; 
-    
-    
+   
 }
 
 
@@ -129,8 +128,6 @@ img {
     
     border-bottom: 1px solid var(--color-header-border-bottom);
     max-width: 100%;
-
-    
 
 }
 
@@ -300,11 +297,6 @@ img {
     background-color: inherit;
     border: none;
 
-
-    
-    
-    
-    
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     z-index: 7777;
 }
@@ -334,7 +326,7 @@ img {
     
 
     font-weight: 500;
-    font-size: 40px;
+    font-size: 32px;
     line-height: 1.2em;
     text-align: start;
     letter-spacing: 0.02em;
@@ -357,13 +349,6 @@ img {
      
 }
 
-
-
-
-
-
-
-
 /*mobile-menu-content*/
 
 
@@ -373,13 +358,14 @@ img {
     gap: 302px;
 }
 
-
+.homepage-mob:hover,
+.portfolio-header-mob:hover,
+.contacts-header-mob:hover,
 .homepage-mob:focus,
 .portfolio-header-mob:focus,
 .contacts-header-mob:focus {
     color: var(--background-color-hero-button);
-
-    
+ 
 }
 
 .homepage-mob:visited {
@@ -453,7 +439,7 @@ img {
 }
 
 .header-mail-mob {
-    font-size: 34px;
+    font-size: 24px;
     line-height: 1.2em;
     letter-spacing: 0.02em;
     color: var(--color-header-mail-hover-focus);
@@ -462,7 +448,7 @@ img {
 }
 
 .header-phone-mob {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
     letter-spacing: 0.02em;
     margin-bottom: 64px;
@@ -474,7 +460,7 @@ img {
     justify-content: center;
 
     font-weight: 500;
-    font-size: 18px;
+    font-size: 12px;
     line-height: 1.2em;
 
      letter-spacing: 0.02em;
@@ -494,11 +480,6 @@ img {
 .social-item-mob:last-child {
     border: none;
 }
-
-
-
-
-
 
 
 /*main-content index.html*/

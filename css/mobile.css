@@ -7,9 +7,29 @@
     
         }
 
+ /*hader*/
+ 
+
+
+.menu-container {
+    font-size: 40px;
+  
+}
+
+.header-phone-mob {
+    font-size: 24px;
     
+}
 
+.header-mail-mob {
+    font-size: 34px;
+  
+}  
 
+social-list-mob {
+    font-size: 18px;
+ 
+}
 
 /*hero-section*/
 
