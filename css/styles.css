@@ -440,6 +440,8 @@ img {
     
 }
 
+
+
 .header-mail-mob {
     font-size: 24px;
     line-height: 1.2em;
@@ -493,7 +495,7 @@ img {
 
 .hero-section {
     max-width: 100%;
-    min-height: 100%;
+    max-height: 100%;
 
     background-repeat: no-repeat;
     background-position: center;
@@ -510,7 +512,15 @@ img {
     margin: 0 auto;
 }
 
-
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)),
+    url("../images/hero-img-mob-2x.jpg");
+}
+  }
 
 .headline {
     font-weight: 900;
@@ -1543,5 +1553,14 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .homepage::after {
     display: none;
 }
+    
+}
+
+@media screen and (max-width:767px) { 
+    .navigation {
+    justify-content: space-between;
+    width: 100%;
+        
+    }
     
 }

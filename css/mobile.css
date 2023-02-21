@@ -52,7 +52,16 @@ social-list-mob {
     url("../images/hero-img-tablet.jpg");
     
 }
-    
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-section {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+     rgba(47, 48, 58, 0.4)),
+    url("../images/Img-hero-tablet-2x.jpg");
+}
+}   
 
 /*Benefits-section*/
 
@@ -123,6 +132,8 @@ social-list-mob {
    
 } 
 
+
+
 @media screen and (max-width:767px) { 
     .navigation {
     justify-content: space-between;
@@ -131,3 +142,4 @@ social-list-mob {
     }
     
 }
+
