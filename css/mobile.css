@@ -12,6 +12,7 @@
 
 
 .menu-container {
+    position: fixed;
     font-size: 40px;
   
 }
@@ -36,6 +37,12 @@ social-list-mob {
 .hero-section {
     max-width: 480px;
     max-height: 400px;
+}
+
+.headline {
+    font-size: 26px;
+    
+   
 }
     
 
